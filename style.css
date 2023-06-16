@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 41.6%;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 58rem;
+    height: 62rem;
+    background-color: hsl(213, 19%, 18%);
+    margin-top: 30rem;
+    border-radius: 4.5rem;
+    padding: 5rem;
+}
+
+.container-star {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: RGBA(43, 71, 239, 0.1);
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.container-heading {
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+}
+
+.container-paragraph {
+    color: hsl(217, 12%, 63%);
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.container-rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-rating--1{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: RGBA(43, 71, 239, 0.1);
+    padding-top: 2.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: hsl(217, 12%, 63%);
+}
+
+.container-rating--1:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.container-submit {
+    width: 48rem;
+    height: 7rem;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 4rem;
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    border: none;
+}
+
+.container-submit:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+    margin-top: 4rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
